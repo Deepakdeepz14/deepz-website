@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins',sans-serif;
+   /*background-image: url(https://blog.aweber.com/wp-content/uploads/2021/09/falling-leaf-featured.gif);
+    background-repeat: no-repeat;
+    background-position: 750px;
+    background-size: 800px;*/
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+
+}
+b{
+    color: gold;
+    font-style: italic;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -2px -1px 5px rgba(0,0,0,.0);   
+ 
+    border-radius: 10px;
+    font-feature-settings: stc;
+
+}
+/*---------navbar---------*/
+
+#navbar{
+
+position: sticky;
+top: 0;
+background: white;
+
+}
+
+.bold{
+    font-size: 25px;
+}
+
+li{
+    padding: 5px;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    border: solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+
+}
+
+/*-------------home------*/
+span{
+    color: rgb(47, 47, 206);
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+
+.ENTRY{
+    height: 80%;
+   margin-bottom: 130PX;
+}
+
+/*-------------about------*/
+
+#About img{
+    height: 29rem;
+    width: 29rem;
+    border-radius: 50px;
+
+}
+
+/*-------------services------*/
+
+.card img{
+    height: 250px;
+}
+
+.inner{
+    overflow: hidden;
+
+}
+.card img:hover{
+    transform: scale(1.5s);
+    transition: 1s;
+}
+
+/*---------contact......*/
+
+.size{
+    height: 130px;
+    
+}
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -2px -1px 5px rgba(0,0,0,.0);
+     border-radius: 30px;           
+                
+}
+
+h4 {
+    color: red;
+    background-color: black;
+ 
+    font-style: oblique;
+}
